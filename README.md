@@ -12,7 +12,7 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
     * Folder: Week's folder named "Week *week#*"
     * Multiple Folders: "Section of lectures" named "*item#*-*sectionDescription*"
         * Multiple Files: Notes for each lecture - outlines the main ideas
-        * *private* PDF: Lecture
         * *private* File: Quiz (graded)
         * *optional, private* Jupyter Notebook: Optional Lab named "*item#*-L*lab#*-*labDescription*.ipynb". The associated images folder which contains used images is also hidden
-    * _optional_ Jupyter Notebook: Week's Lab (graded)
+    * *optional* Jupyter Notebook: Week's Lab (graded)
+    * *private* PDF: Lecture
