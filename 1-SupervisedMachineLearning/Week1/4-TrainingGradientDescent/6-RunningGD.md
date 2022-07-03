@@ -1,0 +1,1 @@
+This video is just used to get an understanding of how gradient descent works using multiple examples. This is "Batch" Gradient Descent that looks at the entire training data set. Set [pages 77-86](../Lecture.pdf),
