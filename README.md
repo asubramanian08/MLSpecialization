@@ -9,7 +9,7 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
 
 ### Organization
 * Folder: The course in the specialization
-    * Folder: Week's folder named "Week *week#*"
+    * Folder: Week's folder named "Week*week#*"
     * Multiple Folders: "Section of lectures" named "*item#*-*sectionDescription*"
         * Multiple Files: Notes for each lecture - outlines the main ideas
         * *private* File: Quiz (graded)
