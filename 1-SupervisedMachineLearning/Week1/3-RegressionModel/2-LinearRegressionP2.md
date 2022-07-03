@@ -2,7 +2,7 @@
     * "input features" - $x$
     * "output features" - $y$
 * Process of generating a supervised learning model: (see [page 34](../Lecture.pdf))
-    
+
     training set (features and targets) $$\downarrow$$
     learning algorithm $$\downarrow$$
     $x \rightarrow f \rightarrow \hat{y}$
@@ -18,7 +18,7 @@
 
     See [page 32](../Lecture.pdf) or Terminology section of [Notes 1](1-LinearRegressionP1.md).
     For linear regression, the model is represented by $f_{w,b}(x)=wx+b$. Which of the following is the output or "target" variable?
-    
+
     * [ ] $\hat{y}.$
     * [ ] $x$
     * [x] $y$

@@ -4,14 +4,14 @@
 * Question:
 
     If Arthur Samuel's checkers-playing program had been allowed to play only 10 games (instead of tens of thousands games) against itself, how would this have affected its performance?
-    
+
     * [ ] Would have made it better
     * [x] Would have made it worse
 
     That's right! Please continue the video to learn more about why.
 * Machine Learning Algorithms
     * Supervised learning : course 1, 2
-        
+   
         Used most in real world applications (+ improvements)
     * Unsupervised learning : course 3
     * Recommender systems : course 3

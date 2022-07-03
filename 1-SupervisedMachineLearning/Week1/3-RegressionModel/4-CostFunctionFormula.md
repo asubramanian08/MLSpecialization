@@ -11,7 +11,7 @@
 * Question:
 
     See [page 38](../Lecture.pdf). The cost function used for linear regression is: $$J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$$ Which of these are the parameters of the model that can be adjusted?
-    
+
     * [x] $w$ and $b$
     * [ ] $f_{w,b}(x^{(i)})$
     * [ ] $w$ only, because we should choose b=0

@@ -7,7 +7,7 @@
 
         For example: Age and Tumor size could be two factors
 * 2 Major types of supervised learning
-    1. Regression: 
+    1. Regression:
         * Predict a number
         * Infinite possible outputs
     2. Classification

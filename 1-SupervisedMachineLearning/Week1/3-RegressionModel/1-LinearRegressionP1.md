@@ -3,7 +3,7 @@
 * This is supervised learning since we train with the price and size
 * Specifically the type of supervised learning is a regression and not a classification
 * The data table might look like:
-    
+
     size in feet $^2$ | price in $\$1000$'s
     ------------------|--------------------
     2104 | 400

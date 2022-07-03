@@ -10,7 +10,7 @@
 * Question:
 
     See [page 43](../Lecture.pdf). When does the model fit the data relatively well, compared to other choices for parameter w?
-    
+
     * [ ] When w is close to zero.
     * [ ] When $f_w(x)$ is at or near a minimum for all the values of x in the training set.
     * [ ] When $x$ is at or near a minimum.
