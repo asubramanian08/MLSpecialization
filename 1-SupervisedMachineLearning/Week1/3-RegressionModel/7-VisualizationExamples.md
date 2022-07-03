@@ -1,0 +1,1 @@
+In this video Mr. Ng gives us examples of points on the cost function contour graph. He locates a point and graphs its line onto the training data. This is just to gain a better understanding of contour graphs. See [page 54-57](../Lecture.pdf)
