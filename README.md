@@ -10,9 +10,7 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
 ### Organization
 * Folder: The course in the specialization
     * Folder: Week's folder named "Week*week#*"
-    * Multiple Folders: "Section of lectures" named "*item#*-*sectionDescription*"
-        * Multiple Files: Notes for each lecture - outlines the main ideas
-        * *private* File: Quiz (graded)
-        * *optional, private* Jupyter Notebook: Optional Lab named "*item#*-L*lab#*-*labDescription*.ipynb". The associated images folder which contains used images is also hidden
-    * *optional* Jupyter Notebook: Week's Lab (graded)
-    * *private* PDF: Lecture
+        * Multiple Files: Notes for each group of videos
+        * *private* Markdown File: Quizzes for each video group (graded)
+        * *private* PDF: Lecture slides
+        * *private* Folder: Week's Jupyter Notebooks names "Labs"

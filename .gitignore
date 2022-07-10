@@ -1,8 +1,4 @@
 .DS_Store
-Quiz.md
-*-L*.ipynb
-images
+Quizzes.md
+Labs
 Lecture.pdf
-data.txt
-deeplearning.mplstyle
-lab_utils_common.py
