@@ -97,7 +97,7 @@
 * shift-enter is the way to run a code block
 
 # Optional Lab 1: Python and Jupyter Notebooks
-Lab 1 Juypter [file](Labs/C1_W1_Lab01_Python_Jupyter_Soln.ipynb).
+Lab 1 Jupyter [file](Labs/C1_W1_Lab01_Python_Jupyter_Soln.ipynb).
 
 # Quiz: 100%
 Quiz [file](./Quizzes.md#supervised-vs-unsupervised-machine-learning)

@@ -5,7 +5,7 @@
 * Specifically the type of supervised learning is a regression and not a classification
 * The data table might look like:
 
-    size in feet $^2$ | price in $\$1000$'s
+    size in feet $^2$ | price in $1000's
     ------------------|--------------------
     2104 | 400
     1416 | 232
@@ -18,7 +18,7 @@
 * Terminology
     * **Training Set**: Data used to train the model
 
-        row # | $x$: size in feet $^2$ | $y$: price in $\$1000$'s
+        row # | $x$: size in feet $^2$ | $y$: price in $1000's
         ------|------------------------|-------------------------
         (1) | 2104 | 400
         (2) | 1416 | 232
@@ -40,10 +40,9 @@
     * "input features" - $x$
     * "output features" - $y$
 * Process of generating a supervised learning model: (see [page 34](../Lecture.pdf))
-
-    training set (features and targets) $$\downarrow$$
-    learning algorithm $$\downarrow$$
-    $x \rightarrow f \rightarrow \hat{y}$
+    1. training set (features and targets)
+    2. learning algorithm
+    3. $x \rightarrow f \rightarrow \hat{y}$
 * Where the above values correspond with:
     * $x$: feature
     * $f$: hypothesis
@@ -54,7 +53,7 @@
     * Univariate linear regression
 * Question:
 
-    See [page 32](../Lecture.pdf) or Terminology section of [Notes 1](1-LinearRegressionP1.md).
+    See [page 32](../Lecture.pdf) or Terminology section of the [first notes](#linear-regression-model-part-1).
     For linear regression, the model is represented by $f_{w,b}(x)=wx+b$. Which of the following is the output or "target" variable?
 
     * [ ] $\hat{y}.$
@@ -92,7 +91,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 # Cost Function Intuition
 * model: $f_{w,b}(x)=wx+b$
 * parameters: $w,b$
-* cost function: $J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
+* cost function: $J(w,b)=\frac{1}{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
 * *Our goal*: $\min_{w,b} J(s,b)$
 * Understanding how cost function acts:
     * See [page 41-44](../Lecture.pdf)
@@ -114,7 +113,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 * Recap
     * model: $f_{w,b}(x)=wx+b$
     * parameters: $w,b$
-    * cost function: $J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
+    * cost function: $J(w,b)=\frac{1}{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
     * Objective: $\min_{w,b} J(s,b)$
 * See the 2D "soup bowl looking" group of $J(w,b)$ on [page 48](../Lecture.pdf)
 * We can use a contour plot to visualize the 2D graph. Each ring in the contour has equivalent cost function values. See [page 52](../Lecture.pdf)
@@ -123,7 +122,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 In this video Mr. Ng gives us examples of points on the cost function contour graph. He locates a point and graphs its line onto the training data. This is just to gain a better understanding of contour graphs. See [page 54-57](../Lecture.pdf)
 
 # Optional Lab 4: Cost Function
-Lab 4 Juypter [file](Labs/C1_W1_Lab04_Cost_function_Soln.ipynb).
+Lab 4 Jupyter [file](Labs/C1_W1_Lab04_Cost_function_Soln.ipynb).
 
 # Quiz: 100%
 Quiz [file](./Quizzes.md#regression-model)

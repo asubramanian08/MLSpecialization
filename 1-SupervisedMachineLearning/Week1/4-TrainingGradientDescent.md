@@ -36,20 +36,18 @@
 
     See [page 62](../Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J.
 
-    $$
-    \text{repeat until convergence: } \{ \\
-    w=w-\alpha \frac\partial{\partial w}J(w,b) \\
-    b=b-\alpha \frac\partial{\partial b}J(w,b) \\\}
-    $$
+    $ \text{repeat until convergence:} $<br>
+    $\space \space \space \space w=w-\alpha \frac\partial{\partial w}J(w,b) $<br>
+    $\space \space \space \space b=b-\alpha \frac\partial{\partial b}J(w,b) $
 
-    Assume the learning rate $\alpha$ is a small positive number. When $\frac{\partial J(w,b)}{\partial w}$ is a positive number (greater than zero) -- as in the example in the upper part of the slide shown above -- what happens to $w$ after one update step?
+    Assume the learning rate  $\alpha $ is a small positive number. When $\frac{\partial J(w,b)}{\partial w} $ is a positive number (greater than zero) -- as in the example in the upper part of the slide shown above -- what happens to $w$ after one update step?
 
     * [ ] It is not possible to tell if $w$ will increase or decrease.
     * [ ] $w$ increases
     * [x] $w$ decreases
     * [ ] $w$ stays the same
 
-    The learning rate $\alpha$ is always a positive number, so if you take W minus a positive number, you end up with a new value for W that is smaller
+    The learning rate  $\alpha $ is always a positive number, so if you take W minus a positive number, you end up with a new value for W that is smaller
 
 # Learning Rate
 * $w=w-\alpha \frac\partial{\partial w}J(w,b)$
@@ -62,21 +60,20 @@
 * LR model: $f_{w,b}(x)=wx+b$
 * Squared error cost function: $J(w,b)=\frac1{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
 * Gradient Descent Algorithm:
-    $$
-    \text{repeat until convergence: } \{ \\
-    w=w-\alpha \frac\partial{\partial w}J(w,b) \\
-    b=b-\alpha \frac\partial{\partial b}J(w,b) \\\}
-    $$
+
+    $ \text{repeat until convergence:} $<br>
+    $\space \space \space \space w=w-\alpha \frac\partial{\partial w}J(w,b) $<br>
+    $\space \space \space \space b=b-\alpha \frac\partial{\partial b}J(w,b) $
+
     * $\frac\partial{\partial w}J(w,b) = \frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})x^{(i)}$
     * $\frac\partial{\partial b}J(w,b) = \frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})$
 * Calculus proof of the above formula - [page 72](../Lecture.pdf)
 * Final GD algo for LR:
-    $$
-    \text{repeat until convergence: } \{ \\
-    w=w-\alpha\frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})x^{(i)} \\
-    b=b-\alpha\frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)}) \\\} \\
-    \text{NOTE: Updated simultaneously}
-    $$
+
+    $ \text{repeat until convergence:} $<br>
+    $\space \space \space \space w=w-\alpha\frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})x^{(i)} $<br>
+    $\space \space \space \space b=b-\alpha\frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)}) $<br>
+    $\text{NOTE: Updated simultaneously}$
 
 # Running Gradient Descent
 This video is just used to get an understanding of how gradient descent works using multiple examples. This is "Batch" Gradient Descent that looks at the entire training data set. Set [pages 77-86](../Lecture.pdf),
