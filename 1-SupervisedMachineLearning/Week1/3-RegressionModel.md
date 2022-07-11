@@ -39,7 +39,7 @@
 * Training set has:
     * "input features" - $x$
     * "output features" - $y$
-* Process of generating a supervised learning model: (see [page 34](../Lecture.pdf))
+* Process of generating a supervised learning model: (see [page 34](Lecture.pdf))
     1. training set (features and targets)
     2. learning algorithm
     3. $x \rightarrow f \rightarrow \hat{y}$
@@ -53,7 +53,7 @@
     * Univariate linear regression
 * Question
 
-    See [page 32](../Lecture.pdf) or Terminology section of the [first notes](#linear-regression-model-part-1).
+    See [page 32](Lecture.pdf) or Terminology section of the [first notes](#linear-regression-model-part-1).
     For linear regression, the model is represented by $f_{w,b}(x)=wx+b$. Which of the following is the output or "target" variable?
 
     * [ ] $\hat{y}.$
@@ -79,7 +79,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
     * Expanding $\hat{y}^{(i)}$: $J(w,b)=\frac{\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2}{2m}$
 * Question
 
-    See [page 38](../Lecture.pdf). The cost function used for linear regression is: $$J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$$ Which of these are the parameters of the model that can be adjusted?
+    See [page 38](Lecture.pdf). The cost function used for linear regression is: $$J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$$ Which of these are the parameters of the model that can be adjusted?
 
     * [x] $w$ and $b$
     * [ ] $f_{w,b}(x^{(i)})$
@@ -94,13 +94,13 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 * cost function: $J(w,b)=\frac{1}{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
 * *Our goal*: $\min_{w,b} J(s,b)$
 * Understanding how cost function acts:
-    * See [page 41-44](../Lecture.pdf)
+    * See [page 41-44](Lecture.pdf)
     * We simplify our cost function to only be a factor of $w$ (so $f_w(x)=wx$)
     * Using training set  $\{(1,1), (2,2), (3,3)\}$
-    * By graphing $w$ vs. $J(w)$, the graph is a parabola - [page 43](../Lecture.pdf)
+    * By graphing $w$ vs. $J(w)$, the graph is a parabola - [page 43](Lecture.pdf)
 * Question
 
-    See [page 43](../Lecture.pdf). When does the model fit the data relatively well, compared to other choices for parameter w?
+    See [page 43](Lecture.pdf). When does the model fit the data relatively well, compared to other choices for parameter w?
 
     * [ ] When w is close to zero.
     * [ ] When $f_w(x)$ is at or near a minimum for all the values of x in the training set.
@@ -115,11 +115,11 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
     * parameters: $w,b$
     * cost function: $J(w,b)=\frac{1}{2m}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$
     * Objective: $\min_{w,b} J(s,b)$
-* See the 2D "soup bowl looking" group of $J(w,b)$ on [page 48](../Lecture.pdf)
-* We can use a contour plot to visualize the 2D graph. Each ring in the contour has equivalent cost function values. See [page 52](../Lecture.pdf)
+* See the 2D "soup bowl looking" group of $J(w,b)$ on [page 48](Lecture.pdf)
+* We can use a contour plot to visualize the 2D graph. Each ring in the contour has equivalent cost function values. See [page 52](Lecture.pdf)
 
 # Visualization Examples
-In this video Mr. Ng gives us examples of points on the cost function contour graph. He locates a point and graphs its line onto the training data. This is just to gain a better understanding of contour graphs. See [page 54-57](../Lecture.pdf)
+In this video Mr. Ng gives us examples of points on the cost function contour graph. He locates a point and graphs its line onto the training data. This is just to gain a better understanding of contour graphs. See [page 54-57](Lecture.pdf)
 
 # Optional Lab 4: Cost Function
 Lab 4 Jupyter [file](Labs/C1_W1_Lab04_Cost_function_Soln.ipynb).

@@ -23,7 +23,7 @@
     * Used to be: $f_{w,b}(x) = wx + b$
 * Question
 
-    In the training set below, what is $x_1^{(4)}$? Please type in the number below (this is an integer such as 123, no decimal points). See [page 4](../Lecture.pdf).
+    In the training set below, what is $x_1^{(4)}$? Please type in the number below (this is an integer such as 123, no decimal points). See [page 4](Lecture.pdf).
 
     Answer: $852$
 

@@ -4,7 +4,7 @@
     * $x_2$: # bedrooms, $0 \le x_1 \le 5$
     * The  $\vec{w} $ might be $[w_1 = 0.1 \space \space w_2 = 50]$
     * **Takeaway**: When the size of the feature is small its weight is larger.
-* See [page 18](../Lecture.pdf): The contour plot will be elliptical and might cause GD to run slowly
+* See [page 18](Lecture.pdf): The contour plot will be elliptical and might cause GD to run slowly
 * By scaling our features we get more circle like figures on the contour plot
 
 # Feature Scaling Part 2
@@ -28,7 +28,7 @@
     * $-0.00001 \le x_j \le 0.00001$ is too small
 * Question
 
-    See [page 21](../Lecture.pdf). Which of the following is a valid step used during feature scaling?
+    See [page 21](Lecture.pdf). Which of the following is a valid step used during feature scaling?
 
     * [ ] Multiply each value by the maximum value for that feature
     * [x] Divide each value by the maximum value for that feature
@@ -40,7 +40,7 @@
 * Looking at this graph shows how $J$ is changing. That way we can see when GD coverages
 * If the graph increases likely $\alpha$ is too large
 * Automatic convergence test: If $\Delta J(\vec{w},b) < \epsilon$ the GD has converged
-* See [page 27](../Lecture.pdf)
+* See [page 27](Lecture.pdf)
 
 # Choosing the Learning Rate
 * If $\alpha$ is too large it might not coverage, $J(\vec{w}, b)$ might increase
@@ -48,7 +48,7 @@
 * There could be a bug in the code causing the graph of  $J(\vec{w}, b) $ too look weird. To test this slowly increase  $\alpha $ (start with 0.01, 0.03, 0.1, ...) until GD diverges. Pick an $\alpha$ that is just small then the value it diverges at.
 * Question
 
-    See [page 29](../Lecture.pdf). You run gradient descent for 15 iterations with  $\alpha = 0.3 $ and compute  $J(\vec{w}) $ after each iteration. You find that the value of $J(w) $ increases over time.  How do you think you should adjust the learning rate  $\alpha $?
+    See [page 29](Lecture.pdf). You run gradient descent for 15 iterations with  $\alpha = 0.3 $ and compute  $J(\vec{w}) $ after each iteration. You find that the value of $J(w) $ increases over time.  How do you think you should adjust the learning rate  $\alpha $?
 
     * [ ] Try running it for only 10 iterations so $J(w)$ doesn't increase much.
     * [x] Try a small value of  $\alpha $ (say  $\alpha = 0.1$)
@@ -73,7 +73,7 @@ Lab 3 Jupyter [file](Labs/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipy
     Look at the above example of adding $x_3$ as the area.
 * Question
 
-    See [page 32](../Lecture.pdf). If you have measurements for the dimensions of a swimming pool (length, width, height), which of the following two would be a more useful engineered feature?
+    See [page 32](Lecture.pdf). If you have measurements for the dimensions of a swimming pool (length, width, height), which of the following two would be a more useful engineered feature?
 
     * [ ] $\text{length} + \text{width} + \text{height}$
     * [x] $\text{length} + \text{width} \times \text{height}$

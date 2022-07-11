@@ -20,7 +20,7 @@
     * Simultaneously update values $w$ and $b$
 * Question
 
-    See [page 62](../Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. What does this update statement do? (Assume $\alpha$ is small.) $$w=w-\alpha\frac{\partial J(w,b)}{\partial w}$$
+    See [page 62](Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. What does this update statement do? (Assume $\alpha$ is small.) $$w=w-\alpha\frac{\partial J(w,b)}{\partial w}$$
 
     * [ ] Checks whether $w$ is equal to $w-\alpha\frac{\partial J(w,b)}{\partial w}$
     * [x] Updates parameter $w$ by a small amount
@@ -29,12 +29,12 @@
 
 # Gradient Descent Intuition
 * Simpler algo for GD: $w=w-\alpha \frac\partial{\partial w}J(w)$
-* See [page 65](../Lecture.pdf)
+* See [page 65](Lecture.pdf)
 * Draw a tangent line to $J(w)$ and find its slope (derivative)
 * If the slope is positive we end of decreasing $w$ and the same implies for the negative slope
 * Question
 
-    See [page 62](../Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J.
+    See [page 62](Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J.
 
     $ \text{repeat until convergence:} $<br>
     $\space \space \space \space w=w-\alpha \frac\partial{\partial w}J(w,b) $<br>
@@ -67,7 +67,7 @@
 
     * $\frac\partial{\partial w}J(w,b) = \frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})x^{(i)}$
     * $\frac\partial{\partial b}J(w,b) = \frac1m\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})$
-* Calculus proof of the above formula - [page 72](../Lecture.pdf)
+* Calculus proof of the above formula - [page 72](Lecture.pdf)
 * Final GD algo for LR:
 
     $ \text{repeat until convergence:} $<br>
@@ -76,7 +76,7 @@
     $\text{NOTE: Updated simultaneously}$
 
 # Running Gradient Descent
-This video is just used to get an understanding of how gradient descent works using multiple examples. This is "Batch" Gradient Descent that looks at the entire training data set. Set [pages 77-86](../Lecture.pdf),
+This video is just used to get an understanding of how gradient descent works using multiple examples. This is "Batch" Gradient Descent that looks at the entire training data set. Set [pages 77-86](Lecture.pdf),
 
 # Optional Lab 5: Gradient Descent
 Lab 5 Juypter [file](Labs/C1_W1_Lab05_Gradient_Descent_Soln.ipynb).
