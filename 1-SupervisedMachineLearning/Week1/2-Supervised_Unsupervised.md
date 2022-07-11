@@ -2,7 +2,7 @@
 * Arthur Samuel: Machine learning is "the field of study that givens computers the ability to learn without being explicitly programmed."
     * Arthur created a checkers program train using many game plays
     * Eventually the program was able to beat Arthur himself
-* Question:
+* Question
 
     If Arthur Samuel's checkers-playing program had been allowed to play only 10 games (instead of tens of thousands games) against itself, how would this have affected its performance?
 
@@ -78,7 +78,7 @@
     1. Clustering: Grouping similar data points
     2. Anomaly Detection: Finding unusual activity (credit card stealing)
     3. Compressing data: Reduce the amount of storage needed to store something
-* Question:
+* Question
 
     Of the following examples, which would you address using an unsupervised learning algorithm?  (Check all that apply.)
 

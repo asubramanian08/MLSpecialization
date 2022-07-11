@@ -18,7 +18,7 @@
 * Understanding the algo
     * $\alpha$: The learning rate (how big of a step you take)
     * Simultaneously update values $w$ and $b$
-* Question:
+* Question
 
     See [page 62](../Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. What does this update statement do? (Assume $\alpha$ is small.) $$w=w-\alpha\frac{\partial J(w,b)}{\partial w}$$
 
@@ -32,7 +32,7 @@
 * See [page 65](../Lecture.pdf)
 * Draw a tangent line to $J(w)$ and find its slope (derivative)
 * If the slope is positive we end of decreasing $w$ and the same implies for the negative slope
-* Question:
+* Question
 
     See [page 62](../Lecture.pdf). Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J.
 

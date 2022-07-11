@@ -51,7 +51,7 @@
     * $f_{w,b}(x)=wx+b$
     * One variable linear regression
     * Univariate linear regression
-* Question:
+* Question
 
     See [page 32](../Lecture.pdf) or Terminology section of the [first notes](#linear-regression-model-part-1).
     For linear regression, the model is represented by $f_{w,b}(x)=wx+b$. Which of the following is the output or "target" variable?
@@ -77,7 +77,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
     * Cost function: $J(w,b)=\frac{\sum_{i=1}^m(\hat{y}^{(i)}-y^{(i)})^2}{2m}$
     * NOTE: It is divided by $2m$ instead of $m$ to make later calculations easier
     * Expanding $\hat{y}^{(i)}$: $J(w,b)=\frac{\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2}{2m}$
-* Question:
+* Question
 
     See [page 38](../Lecture.pdf). The cost function used for linear regression is: $$J(w,b)=\frac{1}{{2m}}\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2$$ Which of these are the parameters of the model that can be adjusted?
 
@@ -98,7 +98,7 @@ Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
     * We simplify our cost function to only be a factor of $w$ (so $f_w(x)=wx$)
     * Using training set  $\{(1,1), (2,2), (3,3)\}$
     * By graphing $w$ vs. $J(w)$, the graph is a parabola - [page 43](../Lecture.pdf)
-* Question:
+* Question
 
     See [page 43](../Lecture.pdf). When does the model fit the data relatively well, compared to other choices for parameter w?
 
