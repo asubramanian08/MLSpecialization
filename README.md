@@ -14,3 +14,4 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
         * *private* Markdown File: Quizzes for each video group (graded)
         * *private* PDF: Lecture slides
         * *private* Folder: Week's Jupyter Notebooks names "Labs"
+        * *private optional* Folder: Programming Assignment (graded)
