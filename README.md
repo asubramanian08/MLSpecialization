@@ -15,3 +15,12 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
         * *private* PDF: Lecture slides
         * *private* Folder: Week's Jupyter Notebooks names "Labs"
         * *private optional* Folder: Programming Assignment (graded)
+
+# Certificates
+
+* Supervised Machine Learning: Regression and Classification
+    * [Certificate link](1-SupervisedMachineLearning/Certificate.pdf)
+    * 100% on all Quizzes
+    * Week 2 Linear Regression Lab: 100%
+    * Week 3 Logistic Regression Lab: 100%
+    * Final Grade: 100%
