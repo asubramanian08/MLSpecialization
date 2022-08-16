@@ -64,7 +64,7 @@
     y is the true value for that training example, referred to as the output variable, or “target”.
 
 # Optional Lab 3: Model Representation
-Lab 3 Juypter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
+Lab 3 Jupyter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 
 # Cost Function Formula
 * Model: $f_{w,b}(x)=wx+b$

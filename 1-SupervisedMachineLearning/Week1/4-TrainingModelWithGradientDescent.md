@@ -79,7 +79,7 @@
 This video is just used to get an understanding of how gradient descent works using multiple examples. This is "Batch" Gradient Descent that looks at the entire training data set. Set [pages 77-86](Lecture.pdf),
 
 # Optional Lab 5: Gradient Descent
-Lab 5 Juypter [file](Labs/C1_W1_Lab05_Gradient_Descent_Soln.ipynb).
+Lab 5 Jupyter [file](Labs/C1_W1_Lab05_Gradient_Descent_Soln.ipynb).
 
 # Quiz: 100%
 Quiz [file](./Quizzes.md#train-the-model-with-gradient-descent)

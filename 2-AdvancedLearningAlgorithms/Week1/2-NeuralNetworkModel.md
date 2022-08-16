@@ -38,7 +38,7 @@
 * Backward propagation is used for learning (next week)
 
 # Optional Lab 1: Neurons and Layers
-Lab 1 Juypter [file](Labs/C2_W1_Lab01_Neurons_and_Layers.ipynb).
+Lab 1 Jupyter [file](Labs/C2_W1_Lab01_Neurons_and_Layers.ipynb).
 
 # Quiz: 100%
 Quiz [file](Quizzes.md#neural-network-model)
