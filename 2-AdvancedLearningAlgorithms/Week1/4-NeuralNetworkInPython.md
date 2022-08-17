@@ -24,9 +24,9 @@ Note: This is for the Coffee Roasting example (Layer 1: 3, Layer 2: 1)
     a_1^{[2]} = g(\vec{w}_1^{[1]} \cdot \vec{x} + b_1^{[1]}) $$
 
 * General Code Implementation
-    
+
     Note $w_j^{[l]} \space \forall j,l$ is represented as wl_j in the code.
-    
+
     ```python
     # In this code we are going to use 1D arrays
     x = np.array([200, 17])
