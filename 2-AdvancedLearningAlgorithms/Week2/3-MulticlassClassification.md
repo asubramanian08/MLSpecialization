@@ -129,3 +129,6 @@ Lab 2 Jupyter [file](Labs/C2_W2_SoftMax.ipynb).
 
 # Optional Lab 3: Multiclass
 Lab 3 Jupyter [file](Labs/C2_W2_Multiclass_TF.ipynb).
+
+# Quiz: 100%
+Quiz [file](Quizzes.md#multiclass-classification)
