@@ -39,4 +39,4 @@
     * Finally there will be a sigmoid layer that states if a person might have heart disease
 
 # Quiz: 100%
-Quiz [file](Quizzes.md#additional-neural-network-consepts)
+Quiz [file](Quizzes.md#additional-neural-network-concepts)
