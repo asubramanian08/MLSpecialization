@@ -18,8 +18,8 @@
 
     # Part 2: What is the loss function
     from tensorflow.keras.losses import BinaryCrossentropy
-    model.compile(loss=BinaryCrossentropy()) 
-    
+    model.compile(loss=BinaryCrossentropy())
+
     # Part 3: Fit the model after running "epochs" iteration
     model.fit(X,Y,epochs=100)
     ```
@@ -43,13 +43,13 @@
         ])
         ```
     2. Loss and cost function:
-        
+
         * Cost Function
 
             $$J(W, B) = \frac1m \sum_{i=1}^m L(f(\vec{x}^{(i)}),y^{(i)})$$
 
         * Loss functions from binary classification problems - binary cross entropy:
-        
+
             $$L(f(\vec{w}),y) = -y\log(f(\vec{x})) - (1 - y)\log(1 - f(\vec{x}))$$
 
             ```python
@@ -66,10 +66,10 @@
             model.compile(loss=MeanSquaredError())
             ```
     3. Train the model: Gradient Descent
-        
+
         $$\begin{align*}
         &\text{repeat until convergence:} \; \lbrace \\
-        &  \; \; \;w_j^{[l]} = w_j^{[l]} -  \alpha \frac{\partial}{\partial w_j} J(\vec{w},b) \\ 
+        &  \; \; \;w_j^{[l]} = w_j^{[l]} -  \alpha \frac{\partial}{\partial w_j} J(\vec{w},b) \\
         &  \; \; \;  \; \;b_j^{[l]} = b_j^{[l]} -  \alpha \frac{\partial}{\partial b} J(\vec{w},b) \\
         &\rbrace
         \end{align*}$$

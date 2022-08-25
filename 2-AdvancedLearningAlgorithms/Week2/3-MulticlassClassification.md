@@ -13,7 +13,7 @@
     * $a_2 = 1 - a_1 = P(y = 0 \mid \vec{x})$
 * Softmax Regression (ex. 4 outputs)
     $$z_i = \vec{w}_i \cdot \vec{x} + b$$
-    
+
     $$a_i = \frac{e^{z_i}}{\sum_{j=1}^4 e^{z_j}} = P(y = i \mid \vec{x})$$
 
     Note: $\sum_{i = 1}^n a_i$ must $ = 1$.
@@ -34,7 +34,7 @@
     $$J(\vec{w},b) = \text{average loss}$$
 
     Softmax Regression:
-    $$loss(a_1, ..., a_N, y) = \begin{cases}-\log a_1 & \text{if } y = 1 \\ -\log a_2 & \text{if } y = 2 \\ 
+    $$loss(a_1, ..., a_N, y) = \begin{cases}-\log a_1 & \text{if } y = 1 \\ -\log a_2 & \text{if } y = 2 \\
     & \vdots \\ -\log a_N & \text{if } y = N \end{cases} $$
 
 # Neural Network with Softmax Output
@@ -104,7 +104,7 @@ model = Sequential([
 ])
 
 # Loss
-from tensorflow.keras.losses import 
+from tensorflow.keras.losses import
 SparseCategoricalCrossentropy
 model.compile(...,loss=SparseCategoricalCrossentropy(from_logits=True) )
 
@@ -118,7 +118,7 @@ f_x = tf.nn.softmax(logits)
 
 # Classification with Multiple Outputs (Optional)
 * In multilabel classification there are multiple outputs / labels for one given input
-    
+
     For example: Is there a car, bus, pedestrian
     * Option 1: Make 3 different NNs for each of the three different problems
     * Option 2: Multilabel classification

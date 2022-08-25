@@ -8,7 +8,7 @@
 * Tips for what to do next in an ML project: (saving time)
 * Problem: linear regression for predicting housing prices
     $$J(\vec{w},b) = \frac1{2m} \sum_{i=1}^m \left(f_{\vec{w},b}(\vec{x}^{(i)})-y^{(i)}\right)^2 + \frac\lambda{2m} \sum_{j=1}^n w_j^2$$
-    
+
     The model is giving large errors in the predictions:
     * Get more training examples
     * Try a smallest feature set
@@ -21,7 +21,7 @@
 # Evaluating a Model
 * How to evaluate the performance of a model
 * Divide the data into **70% training and 30% testing**
-    
+
     In an overfit model: $J_\text{test}(\vec{w},b)$ will be high when $J_\text{train}(\vec{w},b)$ will be low.
 * Mathematical steps for linear regression:
 
@@ -53,13 +53,13 @@
     * Cross Validation (dev set): 20%
     * Test set: 20%
 * Calculate the error using different sets:
-    
+
     Let "$\text{set}$" be the name of the set's error we are checking:
     $$J_\text{set}(\vec{w}, b) = \frac1{2m_\text{set}} \left[ \sum_{i=1}^{m_\text{set}} \left( f_{\vec{w},b}(\vec{x}_\text{set}^{(i)}) - y_\text{set}^{(i)} \right)^2 \right]$$
 * **Model selection**:
-    
+
     $$d=1 \ \ \ \ f_{\vec{w},b}(\vec{x}) = w_1x_1 + b \\ d=2 \ \ \ \ f_{\vec{w},b}(\vec{x}) = w_1x_1 + w_2x^2 + b \\ d=3 \ \ \ \ f_{\vec{w},b}(\vec{x}) = w_1x_1 + w_2x^2 + w_3x^3 + b \\ \vdots \\ d=10 \ \ \ \ f_{\vec{w},b}(\vec{x}) = w_1x_1 + w_2x^2 + \cdots + w_{10}x^{10} + b$$
-    
+
     * Option 1: Calculate $J_\text{test}(w^{<d>}, b^{<d>})$ for all $d$. Choose the degree that minimizes $J_\text{test}(w^{<d>}, b^{<d>})$.
     * Option 2 (recommended - using dev set): Pick the one the minimizes $J_\text{dev}(w^{<d>}, b^{<d>})$. Test the error using $J_\text{test}(w^{<d>}, b^{<d>})$.
 * The main idea is the not use the test set to make decisions about the model. The test set can then be used to see how good the model is, since it is fair (unbiased).

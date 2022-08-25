@@ -4,7 +4,7 @@
     * Layers: affordability, awareness, quality
     * Output: How well the product with do
 * Awareness can be a non-negative number instead of just a 1/0
-    
+
     Application: $a_2^{[1]} = g(\vec{w}_2^{[1]} \cdot \vec{x} + b_2^{[1]})$
     * Previous activation (sigmoid): $g(z) = \frac1{1 + e^{-z}}$ - here $0 < g(z) < 1$
     * Most common activation (ReLU): $g(z) = max(0, z)$ - here $g(z) >= 0$
@@ -29,10 +29,10 @@
     $$a^{[2]} = w_1^{[2]}(w_1^{[1]}x + b_1^{[1]}) + b_1^{[2]}$$
     $$a^{[2]} = (w_1^{[2]}w_1^{[1]})x + w_1^{[2]}b_1^{[1]} + b_1^{[2]}$$
     Since all w and b's are scalars this effectively becomes: $a^{[2]} = wx + b$
-    
+
     This is just linear regression.
 * In the general case:
-    
+
     If you have linear activation for all the neurons in the hidden layers, the entire NN will just become whatever activation function was used in the output layer.
 
 # Optional Lab 1: ReLU Activation
