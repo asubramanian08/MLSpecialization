@@ -45,6 +45,7 @@
     $$J_\text{train}(\vec{w},b) = -\frac1{m_\text{train}} \sum_{i=1}^{m_\text{train}} \left[ y_\text{train}^{(i)}\log\left(f_{\vec{w},b}(\vec{x}_\text{train}^{(i)})\right) + (1 - y_\text{train}^{(i)})\log\left(1 - f_{\vec{w},b}(\vec{x}_\text{train}^{(i)})\right) \right]$$
 
     **NOTE**: Another more practical way to define $J_\text{test}(\vec{w},b)$ and $J_\text{train}(\vec{w},b)$ is to count fraction misclassified. $ (\text{count of } \hat{y} \neq y) \div m$.
+* Note: The term "$\frac\lambda{2m_\text{train}} \sum_{j=1}^n w_j^2$" is called a normalization term. It is there to help prevent overfitting and keep the $w_j$ terms small.
 
 # Model Selection and Training / Cross Validation / Test Sets
 * Problem: Given multiple different models, (say with different polynomial degrees), how do I choose what model is best to use?
