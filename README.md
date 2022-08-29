@@ -24,3 +24,11 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
     * Week 2 Linear Regression Lab: 100%
     * Week 3 Logistic Regression Lab: 100%
     * Final Grade: 100%
+* Advanced Learning Algorithms
+    * [Certificate link](2-AdvancedLearningAlgorithms/Certificate.pdf)
+    * 100% on all Quizzes
+    * Week 1 Binary Classification Lab: 100%
+    * Week 2 Multiclass Classification Lab: 100%
+    * Week 3 "Applying Machine Learning" Lab: 100%
+    * Week 4 Decision Tree Lab: 100%
+    * Final Grade: 100%
