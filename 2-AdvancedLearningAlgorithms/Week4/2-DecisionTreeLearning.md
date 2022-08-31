@@ -2,7 +2,7 @@
 * **Entropy**: Measure of impurity
 * $p_1 = $ fraction of examples that are cats
 * Let $H()$ be the entropy function
-    
+
     Its highest at $H(0.5) = 1$ and lowest at $H(0) = H(1) = 0$.
 
     See [page 25](Lecture.pdf) for the graph of the entropy function.
@@ -25,7 +25,7 @@
 * We want to pick the feature that reduces entropy ($H(p_1)$) the most
     * **Information Gain**: This is the values assigned by reduction of entropy
 * Example: Splitting by face shape:
-    
+
     * Face Shape -> Round: $p_1 = 4/7 / H(0.57) = 0.99$
     * Face Shape -> Not Round: $p_1 = 1/3 / H(0.33) = 0.92$
     * Information Gain of Face Shape: $H(0.5) - \left( \frac{7}{10} H(0.57) + \frac{3}{10} H(0.33) \right)$

@@ -26,7 +26,7 @@
 * Mathematical steps for linear regression:
 
     Fit the parameters by minimizing $J(\vec{w},b)$:
-    $$J(\vec{w},b) = \min_{\vec{w,}, b} \left[ \frac1{2m_\text{train}} \sum_{i=1}^{m_\text{train}} \left(f_{\vec{w},b}(\vec{x}^{(i)})-y^{(i)} \right)^2 +  \frac\lambda{2m_\text{train}} \sum_{j=1}^n w_j^2 \right] $$
+    $$J(\vec{w},b) = \min_{\vec{w,}, b} \left[ \frac1{2m_\text{train}} \sum_{i=1}^{m_\text{train}} \left(f_{\vec{w},b}(\vec{x}^{(i)})-y^{(i)} \right)^2 + \frac\lambda{2m_\text{train}} \sum_{j=1}^n w_j^2 \right] $$
 
     Compute the test's error:
     $$J_\text{test}(\vec{w},b) = \frac1{2m_\text{test}} \left[ \sum_{i=1}^{m_\text{test}} \left( f_{\vec{w},b}(\vec{x}_\text{test}^{(i)})-y_\text{test}^{(i)} \right)^2 \right]$$

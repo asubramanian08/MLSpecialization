@@ -57,7 +57,7 @@
         * Limited possible outputs
 * Question
 
-    Supervised learning is when we give our learning algorithm the right answer $y$  for each example to learn from.  Which is an example of supervised learning?
+    Supervised learning is when we give our learning algorithm the right answer $y$ for each example to learn from. Which is an example of supervised learning?
 
     * [x] Spam filtering
     * [ ] Calculating the average age of a group of customers.
@@ -80,7 +80,7 @@
     3. Compressing data: Reduce the amount of storage needed to store something
 * Question
 
-    Of the following examples, which would you address using an unsupervised learning algorithm?  (Check all that apply.)
+    Of the following examples, which would you address using an unsupervised learning algorithm? (Check all that apply.)
 
     * [x] Given a set of news articles found on the web, group them into sets of articles about the same stories.
     * [ ] Given email labeled as spam/not spam, learn a spam filter.

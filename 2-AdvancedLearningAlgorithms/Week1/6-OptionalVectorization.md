@@ -68,7 +68,7 @@ Question: See [page 73](Lecture.pdf). Can you calculate the value at row 2, colu
 * [ ] $(0.1 x 5) + (0.2 x 6) = 1.7$
 * [ ] $(1 x 3) + (2 x 4) = 11$
 
-This is correct.  Take row 2 of $X^T$ and column 3 of $W$
+This is correct. Take row 2 of $X^T$ and column 3 of $W$
 
 **NOTE:** When multiplying matrices of shape $n_1 \times m_1$ by $n_2 \times m_2$, then $m_2 = n_1$.
 

@@ -69,8 +69,8 @@
 
         $$\begin{align*}
         &\text{repeat until convergence:} \; \lbrace \\
-        &  \; \; \;w_j^{[l]} = w_j^{[l]} -  \alpha \frac{\partial}{\partial w_j} J(\vec{w},b) \\
-        &  \; \; \;  \; \;b_j^{[l]} = b_j^{[l]} -  \alpha \frac{\partial}{\partial b} J(\vec{w},b) \\
+        & \; \; \;w_j^{[l]} = w_j^{[l]} - \alpha \frac{\partial}{\partial w_j} J(\vec{w},b) \\
+        & \; \; \; \; \;b_j^{[l]} = b_j^{[l]} - \alpha \frac{\partial}{\partial b} J(\vec{w},b) \\
         &\rbrace
         \end{align*}$$
 

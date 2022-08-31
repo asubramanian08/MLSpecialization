@@ -62,7 +62,7 @@ Lab 8 Jupyter [file](Labs/C1_W3_Lab08_Overfitting_Soln.ipynb).
     * [ ] Increase the size of the parameter $b$.
     * [x] Decrease the size of the parameters $w_1, w_2, \dots, w_n$.
 
-    Increasing the regularization parameter $\lambda$ reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
+    Increasing the regularization parameter $\lambda$ reduces overfitting by reducing the size of the parameters. For some parameters that are near zero, this reduces the effect of the associated features.
 
 # Regularized Linear Regression
 * Cost function (squared error + regularization)

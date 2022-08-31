@@ -96,7 +96,7 @@ Lab 3 Jupyter [file](Labs/C1_W1_Lab03_Model_Representation_Soln.ipynb).
 * Understanding how cost function acts:
     * See [page 41-44](Lecture.pdf)
     * We simplify our cost function to only be a factor of $w$ (so $f_w(x)=wx$)
-    * Using training set  $\{(1,1), (2,2), (3,3)\}$
+    * Using training set $\{(1,1), (2,2), (3,3)\}$
     * By graphing $w$ vs. $J(w)$, the graph is a parabola - [page 43](Lecture.pdf)
 * Question
 

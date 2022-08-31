@@ -51,21 +51,21 @@
     Classification:
     ```python
     from xgboost import XGBClassifier
-    
+
     model = XGBClassifier()
-    
+
     model.fit(X_train, y_train)
-    y_pred = mode.predict(X_test)   
+    y_pred = mode.predict(X_test)
     ```
 
     Regression:
     ```python
     from xgboost import XGBRegressor
-    
+
     model = XGBRegressor()
-    
+
     model.fit(X_train, y_train)
-    y_pred = mode.predict(X_test)   
+    y_pred = mode.predict(X_test)
     ```
 
 # When to use Decision Trees

@@ -19,7 +19,7 @@
     * If these sets contain only cats or no cat, make is a leaf. Otherwise, repeat the previous steps using, the "newly divided" set of training examples.
 * Choices we have in creating a decision tree:
     1. Choose what feature to split on:
-    
+
         Pick whatever one maximized purity: Leads to a set being all cats or all dogs.
     2. When to stop splitting:
         * When a node has 100% of one class

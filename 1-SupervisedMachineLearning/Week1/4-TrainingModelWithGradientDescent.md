@@ -40,14 +40,14 @@
     $\space \space \space \space w=w-\alpha \frac\partial{\partial w}J(w,b) $<br>
     $\space \space \space \space b=b-\alpha \frac\partial{\partial b}J(w,b) $
 
-    Assume the learning rate  $\alpha $ is a small positive number. When $\frac{\partial J(w,b)}{\partial w} $ is a positive number (greater than zero) -- as in the example in the upper part of the slide shown above -- what happens to $w$ after one update step?
+    Assume the learning rate $\alpha $ is a small positive number. When $\frac{\partial J(w,b)}{\partial w} $ is a positive number (greater than zero) -- as in the example in the upper part of the slide shown above -- what happens to $w$ after one update step?
 
     * [ ] It is not possible to tell if $w$ will increase or decrease.
     * [ ] $w$ increases
     * [x] $w$ decreases
     * [ ] $w$ stays the same
 
-    The learning rate  $\alpha $ is always a positive number, so if you take W minus a positive number, you end up with a new value for W that is smaller
+    The learning rate $\alpha $ is always a positive number, so if you take W minus a positive number, you end up with a new value for W that is smaller
 
 # Learning Rate
 * $w=w-\alpha \frac\partial{\partial w}J(w,b)$

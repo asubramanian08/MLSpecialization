@@ -2,7 +2,7 @@
 * Let's look at an example scenario:
     * $x_1$: size (feet$^2$), $300 \le x_1 \le 2000$
     * $x_2$: # bedrooms, $0 \le x_1 \le 5$
-    * The  $\vec{w} $ might be $[w_1 = 0.1 \space \space w_2 = 50]$
+    * The $\vec{w} $ might be $[w_1 = 0.1 \space \space w_2 = 50]$
     * **Takeaway**: When the size of the feature is small its weight is larger.
 * See [page 18](Lecture.pdf): The contour plot will be elliptical and might cause GD to run slowly
 * By scaling our features we get more circle like figures on the contour plot
@@ -45,15 +45,15 @@
 # Choosing the Learning Rate
 * If $\alpha$ is too large it might not coverage, $J(\vec{w}, b)$ might increase
 * If $\alpha$ is too small the program might take a long time to run
-* There could be a bug in the code causing the graph of  $J(\vec{w}, b) $ too look weird. To test this slowly increase  $\alpha $ (start with 0.01, 0.03, 0.1, ...) until GD diverges. Pick an $\alpha$ that is just small then the value it diverges at.
+* There could be a bug in the code causing the graph of $J(\vec{w}, b) $ too look weird. To test this slowly increase $\alpha $ (start with 0.01, 0.03, 0.1, ...) until GD diverges. Pick an $\alpha$ that is just small then the value it diverges at.
 * Question
 
-    See [page 29](Lecture.pdf). You run gradient descent for 15 iterations with  $\alpha = 0.3 $ and compute  $J(\vec{w}) $ after each iteration. You find that the value of $J(w) $ increases over time.  How do you think you should adjust the learning rate  $\alpha $?
+    See [page 29](Lecture.pdf). You run gradient descent for 15 iterations with $\alpha = 0.3 $ and compute $J(\vec{w}) $ after each iteration. You find that the value of $J(w) $ increases over time. How do you think you should adjust the learning rate $\alpha $?
 
     * [ ] Try running it for only 10 iterations so $J(w)$ doesn't increase much.
-    * [x] Try a small value of  $\alpha $ (say  $\alpha = 0.1$)
+    * [x] Try a small value of $\alpha $ (say $\alpha = 0.1$)
     * [ ] Keep running it for additional iterations
-    * [ ] Try a large value of  $\alpha $ (say  $\alpha = 1.0$)
+    * [ ] Try a large value of $\alpha $ (say $\alpha = 1.0$)
 
     Since the cost function is increasing, we know that gradient descent is diverging, so we need a lower learning rate.
 
@@ -67,7 +67,7 @@ Lab 3 Jupyter [file](Labs/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipy
 
     $x_2$: Depth
 
-    * We can design another feature  $x_3 $ that is the area - frontage $\times$ depth
+    * We can design another feature $x_3 $ that is the area - frontage $\times$ depth
 * **Concept**: We can add new features by combining other features and getting a more accurate prediction
 
     Look at the above example of adding $x_3$ as the area.
@@ -78,10 +78,10 @@ Lab 3 Jupyter [file](Labs/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipy
     * [ ] $\text{length} + \text{width} + \text{height}$
     * [x] $\text{length} + \text{width} \times \text{height}$
 
-    The volume of the swimming pool could be a useful feature to use.  This is the more useful engineered feature of the two.
+    The volume of the swimming pool could be a useful feature to use. This is the more useful engineered feature of the two.
 
 # Polynomial Regression
-* This is a form of [Feature Engineering](#feature-engineering) where we can add features  $x_2 $ as  $(x_1)^2 $.
+* This is a form of [Feature Engineering](#feature-engineering) where we can add features $x_2 $ as $(x_1)^2 $.
 * We can also use $\sqrt{x_1}$ as a feature
 * **Note**: [Feature scaling](#feature-scaling-part-2) becomes increasingly important here
 

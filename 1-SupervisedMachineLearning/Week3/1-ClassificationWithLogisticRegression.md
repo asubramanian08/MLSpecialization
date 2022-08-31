@@ -55,7 +55,7 @@ Lab 1 Jupyter [file](Labs/C1_W3_Lab01_Classification_Soln.ipynb).
     See [page 8](Lecture.pdf). Recall the sigmoid function is $g(z) = \frac1{1 + e^{-z}}$. If z is a large negative number then:
 
     * [x] $g(z)$ in near zero
-    * [ ] $g(z)$ in near negative  one (-1)
+    * [ ] $g(z)$ in near negative one (-1)
 
     Say $z=-100$. $e^{-z}$ is then $e^{100}$, a really big positive number. So, $g(z) = \frac1{1 + \text{a big positive number}}$ or about $0$
 

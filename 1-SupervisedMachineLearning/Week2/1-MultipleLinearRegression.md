@@ -150,7 +150,7 @@ Lab 1 Jupyter [file](Labs/C1_W2_Lab01_Python_Numpy_Vectorization_Soln.ipynb).
 * Using Normal Equation (instead of GD)
     * Gradient Descent is more general / applicable
     * NE only works for linear regression
-    * Can be slow for $> 10,000$  features
+    * Can be slow for $> 10,000$ features
     * GD is recommend but NE might be implements under the hood of some libraries
 
 # Optional Lab 2: Multiple Linear Regression
