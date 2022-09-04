@@ -11,7 +11,7 @@
 
 # Gaussian (Normal) Distribution
 * Gaussian Distribution:
-    
+
     $$p(x) = \frac1{\sqrt{2\pi}\sigma}e^{\frac{-{(x - \mu)}^2}{2\sigma^2}}$$
 
     * Let $x$ be a random variable. Let $\mu$ be the mean and $\sigma$ be the standard deviation (and $\sigma^2$ is the variance)
@@ -34,11 +34,11 @@
 * Algorithm:
     1. Choose $n$ features $x_i$ that might be indicative of an anomaly
     2. Fit parameters $\mu_i$ and $\sigma_i^2$ for each feature $x_i$
-        
+
         $$\mu_j = \frac1m \sum_{i=1}^m x_j^{(i)}$$
-        
+
         $$\sigma_j^2 = \frac1m \sum_{i=1}^m \left( x_j^{(i)} - \mu_j \right)^2$$
-        
+
         Over the vectorized version:
 
         $$\vec\mu = \frac1m \sum_{i=1}^m \vec{x}^{(i)}$$

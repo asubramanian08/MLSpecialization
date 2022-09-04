@@ -10,7 +10,7 @@
 
 # TensorFlow Implementation of Collaborative Filtering
 * Gradient Decent Algorithm:
-    
+
     $$\begin{align*}
     &\text{repeat until convergence:} \; \lbrace \\
     & \; \; \;w = w - \alpha \frac{\partial}{\partial w} J(w,b) \\
@@ -20,7 +20,7 @@
 * Benefit of TensorFlow: Computing the partial derivative term can be difficult but TF implement is for you
 * TF code: Implementing $J = (wx - 1)^2$
     ```python
-    # Setup 
+    # Setup
     w = tf.Variable(3.0) # Meaning w is a value to be optimized
     x = 1.0
     y = 1.0 # target value
@@ -32,10 +32,10 @@
         with tf.GradientTape() as tape:
             f_wb = w*x
             costJ = (f_wb - y) ** 2
-        
+
         # Compute the gradient of J with respect to w
         [dJdw] = tape.gradient(costJ, [w])
-        
+
         # Update w (one step of gradient descent)
         w.assign_add(-alpha * dJdw)
     ```
@@ -50,7 +50,7 @@
         # Record operation for computing the cost
         with tf.GradientTape() as tape:
             cost_value = cofiCostFuncV(X, W, b, Ynorm, R, num_users, num_movies, lambda)
-    
+
     # Automatically compute the gradients of the trainable variables
     grads = tape.gradient( cost_value, [X,W,b] )
 

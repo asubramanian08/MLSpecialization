@@ -19,9 +19,9 @@
 * Randomly pick $K$ points as the centroids: $\mu_1, \mu_2, ..., \mu_K$
     * Note: every $\mu$ is an $n$-dimensional vector, where $n$ is the number of features in the input data
 * Assign each point to the cluster centroids
-    
+
     for $i = 1$ to $m$:
-    * $c^{(i)}$ := index of the closest centroid to $x^{(i)}$  - $\min_k {|| x^{(i)} - \mu_k ||}^2$
+    * $c^{(i)}$ := index of the closest centroid to $x^{(i)}$ - $\min_k {|| x^{(i)} - \mu_k ||}^2$
 * Move centroids
 
     for $k = 1$ to $K$:

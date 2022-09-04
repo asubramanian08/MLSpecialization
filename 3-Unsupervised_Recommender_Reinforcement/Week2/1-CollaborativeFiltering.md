@@ -9,7 +9,7 @@
     * $n_m$: number of items (movies)
     * $r(i, j)$: If user $j$ rated movie $i$ (1 if yes, 0 if no)
     * $y^{(i,j)}$: Rating of user $j$ to movie $i$ (from 0 to 5)
-        
+
         $y^{(i,j)}$ is only defined if $r(i,j) = 1$
     * Goal: Determine what rating a certain user would rate a movie
 
@@ -30,11 +30,11 @@
     * $m^{(j)}$: Number of movies user $j$ has rated
     * Cost function:
         $$\min_{w^{(j)}b^{(j)}} J(w^{(j)}, b^{(j)}) = \frac12 \sum_{i:r(i,j)=1} \left( w^{(j)} \cdot x^{(i)} + b^{(j)} - y^{(i,j)} \right)^2 + \frac\lambda2 \sum_{k=1}^n \left( w_k^{(j)} \right)^2$$
-    
+
         Note: For recommender systems we don't need to divide by $m^{(j)}$ since it is just a constant
     * To learn parameters $w^{(j)}, b^{(j)}$ for all $1 \le j \le n_u$:
         $$J(w, b) = \frac12 \sum_{j=1}^{n_u} \sum_{i:r(i,j)=1} \left( w^{(j)} \cdot x^{(i)} + b^{(j)} - y^{(i,j)} \right)^2 + \frac\lambda2 \sum_{j=1}^{n_u} \sum_{k=1}^n \left( w_k^{(j)} \right)^2$$
-        
+
         We can use gradient descent to learn the parameters.
 
 # Collaborative Filtering Algorithm
@@ -42,7 +42,7 @@
 * If we had the values for $w^{(j)}, b^{(j)} \forall j$, then we could guess what the genre ratings of a movie would be.
 
     For example let:
-    
+
     $$w^{(1)} = \begin{bmatrix} 5 \\ 0 \end{bmatrix}, \ \ \ \ w^{(2)} = \begin{bmatrix} 5 \\ 0 \end{bmatrix} \ \ \ \ w^{(3)} = \begin{bmatrix} 0 \\ 5 \end{bmatrix} \ \ \ \ w^{(4)} = \begin{bmatrix} 0 \\ 5 \end{bmatrix} \\ b^{(1)} = 0, \ \ \ \ \ \ b^{(2)} = 0, \ \ \ \ \ \ b^{(3)} = 0, \ \ \ \ \ \ b^{(4)} = 0 $$
 
     Since $w^{(j)} \cdot x^{(i)} + b^{(j)}$:
@@ -66,7 +66,7 @@
 
 # Binary Labels: Favs, Likes, and Clicks
 * Change the collaborative filtering algorithm to work with binary labels
-    * Most input come in this form: 
+    * Most input come in this form:
         * "I like this movie" or "I don't like this movie"
         * fav/like an item
         * click/didn't click an item
