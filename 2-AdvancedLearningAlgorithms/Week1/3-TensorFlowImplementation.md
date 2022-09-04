@@ -16,7 +16,7 @@
     layer_1 = Dense(units=1, activation='sigmoid')
     a2 = layer_1(a1)
     ```
-* "Thresholding" the output too see whether the coffee is predicted to be good.
+* "Threshold" the output too see whether the coffee is predicted to be good.
     ```python
     if a2 >= 0.5:
         yhat = 1
@@ -38,7 +38,7 @@
     layer_3 = Dense(units=1, activation='sigmoid')
     a3 = layer_3(a2)
 
-    # Thresholding
+    # Threshold
     if a3 >= 0.5:
         yhat = 1
     else

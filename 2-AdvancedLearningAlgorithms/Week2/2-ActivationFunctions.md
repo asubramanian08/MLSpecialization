@@ -39,4 +39,4 @@
 Lab 1 Jupyter [file](Labs/C2_W2_Relu.ipynb).
 
 # Quiz: 100%
-Quiz [file](Quizzes.md#additional-neural-network-consepts)
+Quiz [file](Quizzes.md#additional-neural-network-concepts)

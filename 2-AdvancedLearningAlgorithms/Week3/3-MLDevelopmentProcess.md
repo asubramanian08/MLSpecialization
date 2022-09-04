@@ -16,7 +16,7 @@
 # Error Analysis
 * If an algorithm has 100 misclassifications out of 500. **Error analysis** is manually looking through and determining patterns. What is common the majority or errors.
     * After determining what traits cause the most errors. Adjust the model to fix these errors.
-    * For example: Lets say one of the larger errors is pharma-emails. Then collecting more data or features on phara emails might help.
+    * For example: Lets say one of the larger errors is pharma-emails. Then collecting more data or features on pharma emails might help.
 * Note: Error analysis usually helps for problems that humans are good at.
 
 # Adding Data
@@ -24,7 +24,7 @@
     * This may be expensive and time consuming
     * Instead: Add more data that the error analysis suggests
 
-        For example: Quickly searching through unlabeled data to find th type that I want (phara email).
+        For example: Quickly searching through unlabeled data to find th type that I want (pharma email).
 * Data Augmentation (Really good for images and audio data):
     * Creating more training examples based on the ones we already have.
     * Example: Rotating, enlarging, and recoloring a letter A, could be used a more training data
