@@ -32,3 +32,12 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
     * Week 3 "Applying Machine Learning" Lab: 100%
     * Week 4 Decision Tree Lab: 100%
     * Final Grade: 100%
+* Unsupervised Learning, Recommenders, Reinforcement Learning
+    * [Certificate link](3-Unsupervised_Recommender_Reinforcement/Certificate.pdf)
+    * 100% on all Quizzes
+    * Week 1 Assignment 1 K-Means Lab: 100%
+    * Week 1 Assignment 2 Anomaly Detection Lab: 100%
+    * Week 2 Assignment 1 Collaborative Recommender Systems Lab: 100%
+    * Week 2 Assignment 2 Content Based Filtering Lab: 100%
+    * Week 3 Lunar Lander Lab: 100%
+    * Final Grade: 100%
