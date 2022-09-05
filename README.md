@@ -18,6 +18,8 @@ I took this [specialization](https://www.coursera.org/specializations/machine-le
 
 # Certificates
 
+Final [Certificate](Certificate.pdf), specialization grade: 100%.
+
 * Supervised Machine Learning: Regression and Classification
     * [Certificate link](1-SupervisedMachineLearning/Certificate.pdf)
     * 100% on all Quizzes
